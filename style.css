@@ -309,6 +309,52 @@ footer p:last-child {
   letter-spacing: .1em;
 }
 
+/* ================================
+   PARENTS & PADRINOS
+================================ */
+
+.family-section {
+  text-align: center;
+  margin: 45px auto;
+  max-width: 700px;
+}
+
+.family-section h3 {
+  font-family: "Cinzel", serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 8px 0 20px;
+}
+
+.family-names {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.family-names p {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  .family-section {
+    margin: 35px auto;
+    padding: 0 15px;
+  }
+
+  .family-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .family-names p {
+    font-size: 0.95rem;
+  }
+}
+
 @media (max-width: 700px) {
   .welcome-inner,
   .section-inner { width: min(100%, calc(100% - 28px)); }
